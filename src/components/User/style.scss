@@ -1,0 +1,58 @@
+
+.User {
+  border: 1px solid #CCCCCC;
+  margin: 20px 0;
+  padding: 20px 30px;
+  background-color: rgba(100, 149, 237, 0.1);
+  color: #333131;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 12px 28px 0, rgba(0, 0, 0, 0.1) 0 2px 4px 0, rgba(255, 255, 255, 0.05) 0 0 0 1px inset;
+
+  &__data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6rem;
+  }
+}
+
+.edit-form{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+
+  &__element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 35%;
+    height: 40px;
+  }
+  &__input{
+    height: 100%;
+    width: 80%;
+    padding: 10px 15px;
+  }
+}
+
+.add-form{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 25px;
+
+  &__input{
+    flex-basis: 35%;
+    padding: 10px 15px;
+  }
+}
+
+.forms{
+  width: 90%;
+
+  &__heading{
+    margin-top: 50px;
+    text-align: center;
+  }
+}
